@@ -1,0 +1,32 @@
+.leftbar {
+  top: 50px;
+  width: 270px;
+  position: absolute;
+  background-color: #fcf9f9;
+}
+
+.leftbar > ul {
+  text-decoration: none;
+  list-style: none;
+}
+.list_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  color: #707070;
+  font-weight: 700;
+  font-size: 14px;
+}
+.list_item:hover {
+  cursor: pointer;
+}
+.list_item > img {
+  height: 25px;
+  margin-right: 5px;
+}
+.crt {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 450px;
+}
